@@ -46,3 +46,7 @@ img{
 @media (max-width: 480px){
   .col.two, .col.three{width: 100%}
 }
+
+@media (min-width: 500px){
+  .col.two, .col.three{width: 50%}
+}
