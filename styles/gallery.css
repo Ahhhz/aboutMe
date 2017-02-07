@@ -43,7 +43,7 @@ img{
   /*border: 1px solid black;*/
 }
 
-@media (max-width: 480px) and (min-width: 768px) {
+@media (max-width: 750px) {
   .col.two, .col.three{width: 100%}
 }
 

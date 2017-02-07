@@ -1,55 +1,85 @@
-.text{
-  color: white;
-  font-family: 'Roboto', sans-serif;
+.text {
+    color: #212121;
+    ;
+    font-family: 'Roboto', sans-serif;
 }
 
-.col_1{
-  width: 100%;
-  text-align: center;
-  border: 2px solid black;
+.col {
+    width: 100%;
+    text-align: center;
+    background-color: #9E9E9E;
+    box-sizing: border-box;
 }
 
-.col_2{
-  border: 0;
-  min-height: 275px;
-
+.col.two {
+    min-height: 50px;
+    background-color: #90A4AE;
+    width: 100%;
 }
 
-.col_3{
-  width: 100%;
-  padding: 10px;
-  border: 0;
-  min-height: 250px;
+.col.three {
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #90A4AE;
+    float: left;
 }
 
-body{
-  background-color: gray;
-  background-image: url(http://ncmm.org/wordpress/wp-content/uploads/2016/04/background-website-26-hd-wallpaper-background-and-wallpaper.jpg);
+body {
+    background-color: #CFD8DC;
 }
 
-.welcome{
-  text-decoration: underline;
+.welcome {
+    text-decoration: underline;
+    color: #212121;
 }
 
-.img-circle{
-  width: 200px;
-  border: 2px solid black;
+.img-circle {
+    width: 200px;
+    padding-bottom: 5px;
 }
 
-.info{
-  text-indent: 25px;
-  padding: 30px;
+.info {
+    text-indent: 20px;
+    margin: 43px;
+    margin-top: 5px;
+    font-size: 98%;
+    color: white;
 }
 
-h2{
-  padding: 20px;
+.intro {
+    padding: 20px;
+    text-decoration: underline;
 }
 
-h3{
-  padding: 20px;
+i {
+    color: black;
 }
 
-i{
-  text-align: right;
-  color: yellow;
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col {
+    width: 100%;
+    background-color: #CFD8DC;
+    min-height: 50px;
+}
+
+img.animated-gif {
+    width: 300px;
+    min-height: 175px;
+    margin-top: 50px;
+}
+
+.col.jar {
+    background-color: #90A4AE;
+}
+
+.container {
+    margin-left: 1px;
+    padding: 1px;
+    border: 2px solid black;
+    background-color: #90A4AE;
 }
