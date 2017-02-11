@@ -31,11 +31,13 @@ body {
 .welcome {
     text-decoration: underline;
     color: #212121;
+    text-align: center;
 }
 
 .img-circle {
     width: 200px;
     padding-bottom: 5px;
+    align-content: center;
 }
 
 .info {
